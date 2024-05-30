@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&family=Noto+Sans:wght@500;700;800&display=swap');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.button-background {
+    background-color: #e5e7eb;
+}
+
+.button-background-disabled {
+    background-color: #fff !important;
+    color: #e5e7eb !important;
+}
+
+.default-width {
+    max-width: 700px!important;
+    width: 100% !important;
+    background-color: #fff !important;
+    box-sizing: border-box !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.toggled-width {
+    max-width: 1050px !important;
+    width: 100% !important;
+    background-color: #fff !important;
+    box-sizing: border-box !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+.button-size {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.text-with-line:before {
+    content: "";
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: black;
+}
+
+.line-cut {
+    text-decoration: line-through;
+}
+
+.meet-det-dimension {
+    max-width: 250px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.meeting-details-yarsa-logo {
+    width: 40px;
+    height: 22px;
+    margin-bottom: 0.5rem;
+}
+
+.calendar-dimension {
+    max-width: 480;
+    width: 100%;
+    background-color: #fff;
+}
+
+.scrollable {
+    max-height: 500px;
+    width: 550px;
+    overflow-x: hidden;
+}
+
+.meeting-time-button{
+    width: 230px;
+    
+}
