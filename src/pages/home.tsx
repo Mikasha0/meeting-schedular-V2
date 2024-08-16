@@ -30,7 +30,7 @@ export default function Home() {
         <p className="text-sm pr-2 text-subtle mt-3">A 30 minutes meeting.</p>
         <ul className="mt-2 flex flex-wrap gap-x-2 gap-y-1 mb-2">
           <li>
-          <div className="font-medium inline-flex items-center text-black justify-center rounded gap-x-1 bg-subtle text-emphasis py-1 px-1.5 text-xs leading-3 text-white cursor-pointer hover:bg-opacity-80">
+          <div className="font-medium inline-flex items-center text-black justify-center rounded gap-x-1 bg-subtle text-emphasis py-1  text-xs leading-3 text-gray-500 cursor-pointer hover:bg-opacity-80">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="28"
